@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.main {
+  background-image: url(image/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  height: 600px;
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.main .box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  height: 600px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70vw;
+  margin: auto;
+  height: 100px;
+}
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+  
+}
+.btn {
+  position: absolute;
+  margin-left: -150px;
+  padding: 3px 8px;
+  background-color: rgba(49, 48, 48, 0.893);
+  color: white;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 25px;
+  border: none;
+  border-radius: 4px;
+  z-index: 10;
+
+}
+
+.btn-red {
+  margin-left: 5px;
+  background-color: red;
+  border: 1px solid red;
+}
+.loslegen {
+  font-weight: 400;
+  padding: 7px 70px 10px 15px;
+  font-size: 25px;
+}
+.hero {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 20px;
+  height: calc(100% - 150px);
+}
+
+.hero > :nth-child(1) {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.hero :nth-child(3) {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.hero-buttons input {
+  margin-left: -200px;
+  padding:7px 70px 10px 15px;
+  height: 49px;
+  font-size: 20px;
+  background-color: rgba(8, 8, 8, 0.7);
+  color: rgb(0, 0, 0);
+  border: 1px rgb(70, 67, 67) solid;
+  border-radius: 4px;
+ 
+}
+.box-angebot {
+  display: block;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.box-angebot .angebot-border {
+  display: flex;
+  position: relative;
+  background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+  box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 0 74px;
+  color: white;
+  padding: 22px;
+  justify-content: center;
+  
+}
+
+.box-angebot img {
+  width: 100px;
+  border-radius: 15px; 
+  margin-right: 32px;
+}
+.box-angebot .angebot-text {
+  color: white;
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif; 
+  text-align: left;
+}
+.box-angebot .angebot-text a {
+  display: block;
+  color: rgb(0, 149, 255);
+  font-size: 20px;
+  
+ 
+ 
+}
+
+
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  position: relative;
+  z-index: 10;
+}
+.secImg Video {
+  position: absolute;
+  right: 80px;
+  top: 96px;
+}
+.first h1 {
+  margin-top: 100px;
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 70px;
+}
+.first p {
+  font-size: 24px;
+  text-align: left;
+}
+.box2 {
+  background-color: rgb(57, 54, 54);
+  height: 7px;
+}
+.second {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.secImg2 {
+  position: relative;
+}
+.secImg2 img {
+  position: relative;
+  z-index: 10;
+}
+.secImg2 video {
+  width: 400px;
+  position: absolute;
+  left: 120px;
+  top: 50px;
+}
+
+.second h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 150px;
+}
+.second p {
+  text-align: left;
+  font-size: 24px;
+}
+.third {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+.third h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 110px;
+}
+.third p {
+  text-align: left;
+  font-size: 24px;
+}
+.third img {
+  width: 600px;
+}
+
+.fourth {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin-bottom: 100px;
+}
+.fourth h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 180px;
+}
+.fourth p {
+  font-size: 24px;
+  text-align: left;
+}
+.fragen {
+    text-align: center;
+  }
+  
+  .fragen h1 {
+    color: white;
+    font-size: 50px;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .frg-btn {
+    font-size: 25px;
+    height: 80px;
+    width: 70%; 
+    color: white;
+    cursor: pointer !important;
+    background-color: rgba(44, 42, 42, 0.853);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 8px auto; 
+    padding: 0 20px;
+    border: none;
+  }
+  
+  .frg-btn i {
+      font-size: 50px;
+      font-weight:initial ;
+  }
+  .frg-btn:hover {
+    background-color: rgb(57, 56, 56);
+    transition: 0.3s;
+  }
+
+  .fragen .not{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 30vh;
+  }
+  .fragen .hero-buttons{
+    margin-left: auto;
+    padding-bottom: 80px;
+    
+  }
+  footer{
+    padding: 20px 100px;
+    display: inherit;
+  }
+  .footer-frg{
+    
+    color: rgba(255, 255, 255, 0.852);
+    font-size: 25px;
+  }
+  .footer-frg a{
+    color:rgba(255, 255, 255, 0.852);
+  }
+  
+  .information-box ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  .information-box li {
+    width: 25%; 
+    padding: 5px;
+  }
+  
+  .information-box a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.852);
+  }
+  
+ 
+  .end{
+    color: #e50914;
+    font-size: 50px;
+    margin: 20px 0;
+    text-align: center;
+  }
+    
+   
+ 
